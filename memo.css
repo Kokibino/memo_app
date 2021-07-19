@@ -1,9 +1,39 @@
-ul {
-  display: block;
+
+#titles li {
+  cursor: pointer;
+  color:darkblue;
+  font-family:monospace
+}
+
+body {
+  display:inline-flexbox;
   list-style-type: disc;
   margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
-  padding-inline-start: 40px;
+  padding-inline-start: 100px;
+  height:auto;
+  width: auto;
+}
+h1 {
+  font-family: monospace;
+}
+ul {
+  display:block;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(37, 71, 163);
+}
+button{
+border: none;
+color: white;
+padding: 15px 30px;
+text-align:justify;
+text-decoration:underline;
+display:inline-flexbox;
+font-size: 16px;
+background-color: rgb(37, 71, 163);
+
+
 }
