@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="memo.css">
-  <title>Memo App</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="memo.css">
+    <title>Memo App</title>
 </head>
 <body>
-    <ul>Memo App</ul>
-      <li>初めてのメモ帳</li>
+  <h1>MEMO APP</h1>
+    <div>
+      <textarea name="memo" id="memo" cols="40" rows="25"></textarea>
+    </div>
+  <ul id="memo-list">
+  </ul>  
+    <button onclick="memo" id="save_button">Save</button>
 
-    <textarea name="memo" id="memo" cols="30" rows="10"></textarea>
-    <button id="save_button">保存</button>
+<!-- <ul id="items" class="list-groups">
+  <li class="list-group-item">Item1</li>
+</ul>-->
+
     <script src="index.js"></script>
-
 </body>
 </html>
