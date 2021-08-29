@@ -5,34 +5,28 @@ body {
   margin: 0;
   height:auto;
   width: auto;
-  background-color: rgb(232, 232, 232);
+  /* background-color: rgb(232, 232, 232); */
+  background: linear-gradient(to right, #6ad38b, #4d48ee);
   text-align: center;
 }
 #memo {
   border:0ch;
-  width: 95%;
-  margin: 0 auto;
-  display:block;
+  width: 90%;
+  margin: 0px auto;
+  display:flex;
   padding: 10px;
 }
 textarea:focus {outline: none;}; 
 
 h1 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: rgb(189, 167, 1);
+  font-family:Arial, Helvetica, sans-serif;
   text-align: center;
   margin-block-end: 1em;
   margin-inline-start: -90px;
   margin-inline-end: 0px;
   padding-inline-start: 100px;
-  
 
 }
-/* li {
-color: rgb(11, 10, 10);
-font-family: monospace;
-  
-} */
 
 button{
 border: none;
@@ -41,7 +35,8 @@ padding: 14px 30px;
 text-align:justify;
 display:inline-flexbox;
 font-size: 16px;
-background-color: rgb(189, 167, 1);
+/* background-color: rgb(189, 167, 1); */
+background: linear-gradient(to right, #40d26e, #4d48ee);
 box-shadow: 0 12px 22px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 
 }
